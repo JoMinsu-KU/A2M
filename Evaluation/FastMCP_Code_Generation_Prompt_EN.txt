@@ -1,0 +1,71 @@
+
+[INSTRUCTION]
+
+You are an expert agent tasked with writing Python-based FastMCP server code.
+FastMCP is a lightweight server framework that allows LLMs to invoke tools and resources. You must strictly follow the FastMCP syntax and structure described below:
+
+[FastMCP Syntax Overview]
+
+1. Server declaration:
+   ```python
+   from fastmcp import FastMCP
+   mcp = FastMCP(name="MyAssistantServer")
+   ```
+
+2. Registering a tool:
+   ```python
+   @mcp.tool()
+   def example_tool(param: str) -> str:
+       """Tool description"""
+       return f"Received: {param}"
+   ```
+
+3. Registering a resource (optional):
+   ```python
+   @mcp.resource("resource://example")
+   def example_resource() -> dict:
+       return {"key": "value"}
+   ```
+
+4. Starting the server (fixed form):
+   ```python
+   if __name__ == "__main__":
+       mcp.run(transport="streamable-http", host="192.168.1.108", port=9000)
+   ```
+
+[YOUR TASK]
+
+Based on the process group and list of common idShorts below, generate a complete and valid FastMCP server implementation in Python that meets the following requirements:
+
+- Each idShort should be implemented as a separate tool function using `@mcp.tool()`
+- Function names should follow `snake_case`, derived from the idShort name
+- Each function should include a mock or dummy implementation (e.g., log, print, or simulated action)
+- If applicable, simulate a real PLC control scenario using pymodbus (write_register, read_holding_registers, etc.)
+- Assume dummy Modbus TCP server with IP `192.168.1.50` and port `502`
+- Each function must include meaningful docstrings
+- The output must be a complete `.py` file including `mcp.run(...)` at the end
+
+[Process Information]
+
+- Process Group: test
+- Common idShorts:
+  -
+  -
+  -
+  -
+
+
+[OUTPUT FORMAT]
+
+```python
+# FastMCP server code begins here
+
+<full Python code>
+
+# FastMCP server code ends here
+```
+
+[GOAL]
+
+This code will be used in a smart factory system to allow LLM-based orchestration of process tools.  
+The generated code must conform exactly to the FastMCP framework and will be used to benchmark Claude and GPT models for structural correctness and functional fidelity.
