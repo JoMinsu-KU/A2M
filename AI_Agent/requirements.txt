@@ -1,0 +1,18 @@
+# --- FastAPI ---
+fastapi
+uvicorn
+
+# --- Streamlit ---
+streamlit
+requests
+
+# --- LangChain and LLM  ---
+langchain
+langchain-community
+langchain-core
+
+# Ollama LLM Provider (Gemma3)
+ollama
+
+# --- Util ---
+pydantic
