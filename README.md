@@ -78,20 +78,6 @@ The `research_code.ipynb` notebook contains experiments and evaluation tasks rel
 - LLM-generated control scripts
 - Multi-model evaluation (GPT-4o, Claude 4, Gemini, etc.)
 
----
-
-## 📚 Reference
-
-This system is inspired by the following academic work:
-
-> Y. Xia, N. Jazdi, J. Zhang, C. Shah and M. Weyrich, "Control Industrial Automation System with Large Language Models," arXiv 2024.  
-> [https://doi.org/10.48550/arXiv.2409.18009](https://doi.org/10.48550/arXiv.2409.18009)
-
----
-
-## 📬 Contact & Contributions
-
-We welcome contributions, feedback, and ideas. Feel free to open an issue or submit a pull request.
 
 ---
 
