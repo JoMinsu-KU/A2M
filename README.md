@@ -99,7 +99,7 @@ Watch the full demo of A2M in operation on the actual AFPM motor line:
 
 [▶️ Watch the Demo on YouTube](https://www.youtube.com/watch?v=alrfzhOwG-4)
 ---
-![Demo Video](asset/video/video_final.mp4)
+[![Demo Video](asset/Image/thumbnail.PNG)](https://www.youtube.com/watch?v=alrfzhOwG-4)
 
 ---
 
