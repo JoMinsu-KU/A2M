@@ -46,7 +46,7 @@ The system:
 The following diagram shows the high-level architecture of A2M,  
 connecting the AI Agent, AAS Server, MCP Server, and real manufacturing facility via a local network.
 
-![Architecture](/asset/Image/Architecture.jpg)
+![Architecture](/asset/Image/Architecture.png)
 
 ---
 
