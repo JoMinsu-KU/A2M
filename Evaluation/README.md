@@ -84,7 +84,7 @@ Each tool was expected to simulate Modbus-based device logic.
 
 📊 Evaluation Results
 
-![Evaluation Heatmap](../Image/llm_heatmap_highres.png)
+![Evaluation Heatmap](../asset/Image/llm_heatmap_highres.png)
 
 
 The following heatmaps show the performance of each LLM model across multiple process types,

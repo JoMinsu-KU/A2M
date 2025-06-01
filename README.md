@@ -38,6 +38,16 @@ The system:
 > 🔒 Only AAS files related to **AFPM Motor Production** are included publicly.
 > The full dataset belongs to **Kyungnam University** and is available upon request.
 
+
+---
+
+## 🧠 System Architecture
+
+The following diagram shows the high-level architecture of A2M,  
+connecting the AI Agent, AAS Server, MCP Server, and real manufacturing facility via a local network.
+
+![Architecture](/asset/Image/Architecture.jpg)
+
 ---
 
 ## 🧠 Key Components
@@ -76,8 +86,20 @@ The system:
 - Used Mitsubishi PLC and real AAS-mapped equipment
 - Full workflow from `calculate_required_turns()` to `start_manufacturing()` validated
 
+The A2M framework was deployed on a real AFPM motor manufacturing line at ANYTOY Inc.,  
+integrating Mitsubishi PLCs, AAS-based tool modeling, and LLM-based orchestration.
+
+![Real AFPM Setup](asset/Image/Process%20Image.jpg)
+
 ---
 
+### 🎥 Demo Video
+
+Watch the full demo of A2M in operation on the actual AFPM motor line:
+
+[▶️ Watch the Demo on YouTube](https://www.youtube.com/watch?v=alrfzhOwG-4)
+---
+![Demo Video](asset/video/video_final.mp4)
 
 ---
 
