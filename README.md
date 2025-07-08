@@ -109,7 +109,7 @@ This project only includes AFPM-related digital twins.
 To access the full 4,588-file AAS dataset:
 
 📩 Email: **[jms663100@kyungnam.ac.kr](mailto:jms663100@kyungnam.ac.kr)**  
-🔗 Paper: [Read here](https://docs.google.com/document/d/1W0FK8ec8itj1gvLZU74sqx0yxJU2VLU4)
+
 
 ---
 
