@@ -112,6 +112,24 @@ To access the full 4,588-file AAS dataset:
 
 
 ---
+##  Project Contributors & Roles
+
+### Gyeongnam Intelligence Innovation Center
+| Name                | Role                                                                          |
+|---------------------|--------------------------------------------------------------------------------|
+| **Namhyun Yoon**    | Project Director                                                              |
+| **Jinhong Yang**    | Overall System Architecture Design                                            |
+| **HoanSuk Choi**    | Generation of Process-specific AAS Files & AAS API Design and Development     |
+| **Minsu Jo**        | Agent Module Development & MCP Server Implementation                         |
+
+### ANYTOY
+| Name                | Role                                                        |
+|---------------------|-------------------------------------------------------------|
+| **Gisu Sin**       | AFPM Process—Overall System Architecture Design             |
+| **Changyong Kwak**  | AFPM Process—PLC Code Development                           |
+
+
+
 
 ## 📜 License
 
